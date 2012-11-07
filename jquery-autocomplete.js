@@ -1,3 +1,13 @@
+/**
+ * jQuery Autocomplete plugin
+ *
+ * @example
+ *  $('input#search').autocomplete(options);
+ *
+ * @author Artur Burtsev <artjock@gmail.com>
+ * @version 0.0.1
+ */
+
 ;(function($) {
 
 var KEY = {
