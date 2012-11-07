@@ -24,13 +24,13 @@ var defaults = {
     /**
      * Callback for building HTML for menu
      * @param {Array} data
-     * @param {Object} query
+     * @param {Object} request
      */
     render: $.noop,
 
     /**
      * Callback for making requests
-     * @param {Object} query
+     * @param {Object} request
      * @param {Function} callback for drawing menu
      */
     oninput: $.noop,
@@ -53,13 +53,13 @@ var defaults = {
      * Selector for each item in menu
      * @type String
      */
-    itemsSelector: '.js-autocomplete-item',
+    itemsSelector: 'li',
 
     /**
      * Mark active (and hovered) items with this class
      * @type String
      */
-    activeClass: 'b-autocomplete__item_active'
+    activeClass: 'active'
 };
 
 var autocomplte = {
