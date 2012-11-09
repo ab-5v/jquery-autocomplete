@@ -272,4 +272,7 @@ $.fn.autocomplete = function(options) {
     return this;
 };
 
+// enable autocomplete modification and testing
+$.fn.autocomplete.proto = autocomplete;
+
 })(jQuery);
