@@ -62,7 +62,7 @@ var defaults = {
     activeClass: 'active'
 };
 
-var autocomplte = {
+var autocomplete = {
 
     /**
      * Init autocomplete instance
@@ -267,7 +267,7 @@ var autocomplte = {
 
 $.fn.autocomplete = function(options) {
     options = $.extend(defaults, options || {});
-    autocomplte.init(this, options);
+    autocomplete.init(this, options);
 
     return this;
 };
