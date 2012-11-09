@@ -1,0 +1,23 @@
+{
+    "name": "jquery-autocomplete",
+    "version": "0.0.1",
+    "description": "jQuery autocomplete plugin",
+    "keywords": [ "jquery", "plugin" ],
+    "author": {
+        "name": "Artur Burtsev",
+        "email": "artjock@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/artjock/jquery-autocomplete.git"
+    },
+    "kengines": {
+        "node": "*"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "expect.js": "*",
+        "uglify-js": "*"
+    },
+    "private": true
+}
